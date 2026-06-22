@@ -1,7 +1,7 @@
 # 📊 Maximum Area Between Bars
 
 ## Problem Link
-🔗 [Maximum Area Between Bars – GeeksforGeeks POTD](https://www.geeksforgeeks.org/problems/maximum-area-between-bars/1)
+🔗 [Maximum Area Between Bars – GeeksforGeeks POTD](https://www.geeksforgeeks.org/problems/dam-of-candies--141631/1)
 
 ---
 
@@ -187,5 +187,5 @@ Greedy shrinking window as described in the main solution above.
 
 ---
 
-> 📁 **Part of:** [GeeksforGeeks-POTD-Java](https://github.com/your-username/GeeksforGeeks-POTD-Java)
+> 📁 **Part of:** [GeeksforGeeks-POTD-Java](https://github.com/ranjanow/gfg-potd-java)
 > 📅 **Date:** June 22, 2026
