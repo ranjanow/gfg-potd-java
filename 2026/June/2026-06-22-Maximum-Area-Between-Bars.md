@@ -85,13 +85,11 @@ class Solution {
         int maxArea = 0;
 
         while (left < right) {
-            // Width = bars strictly between the two selected bars
             int width = right - left - 1;
             int h = Math.min(height.get(left), height.get(right));
 
             maxArea = Math.max(maxArea, h * width);
 
-            // Move the shorter bar inward to seek a potentially taller boundary
             if (height.get(left) < height.get(right)) {
                 left++;
             } else {
