@@ -118,7 +118,7 @@ maximum single-digit value is `9`, exactly matching the official explanation:
 
 ```java
 class Solution {
-    public int countNumbers(int n, int sum) {
+    public int countWays(int n, int sum) {
         // dp[i][s] = number of ways to fill i digits (each 0-9) summing to s
         int[][] dp = new int[n][sum + 1];
         dp[0][0] = 1; // base case: 0 digits, sum must be exactly 0
